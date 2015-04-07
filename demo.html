@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="import" href="katex-elements.html">
+    <style>
+      code {
+        color: #2a2;
+      }
+      .tag {
+        color: #e44;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div>
+      <h2>&lt;katex-inline&gt;</h2>
+      <h3>markup:</h3>
+      <code>
+        <span class="tag">&lt;katex-inline&gt;</span>
+        c = \pm\sqrt{a^2 + b^2}
+        <span class="tag">&lt;/katex-inline&gt;</span></code>
+      <h3>output:</h3>
+      <katex-inline>c = \pm\sqrt{a^2 + b^2}</katex-inline>
+    </div>
+
+    <div>
+      <h2>&lt;katex-display&gt;</h2>
+      <h3>markup:</h3>
+      <code>
+        <span class="tag">&lt;katex-display&gt;</span>
+        c = \pm\sqrt{a^2 + b^2}
+        <span class="tag">&lt;/katex-display&gt;</span>
+      </code>
+      <h3>output:</h3>
+      <katex-display>c = \pm\sqrt{a^2 + b^2}</katex-display>
+    </div>
+
+  </body>
+</html>

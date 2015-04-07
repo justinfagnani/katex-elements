@@ -1,0 +1,26 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="katex-js.html">
+
+<dom-module id="katex-inline">
+  :host {
+    display: inline;
+  }
+  <template></template>
+</dom-module>
+
+<script>
+(function() {
+
+  Polymer({
+    is: 'katex-inline',
+
+    ready() {
+      var children = Array.prototype.slice.call(Polymer.dom(this).childNodes);
+      var textContent = children.map(function(c) { return c.textContent; }).join('');
+      katex.render(textContent, Polymer.dom(this.root));
+    },
+
+  });
+
+})();
+</script>
