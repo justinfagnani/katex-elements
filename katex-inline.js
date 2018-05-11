@@ -11,7 +11,7 @@ export class KatexInline extends HTMLElement {
           display: ${this._displayMode ? 'block' : 'inline-block'};
         }
       </style>
-      <!-- one of these should work ☹️ -->
+      <!-- one of these might work ☹️ -->
       <link rel="stylesheet" href="./node_modules/katex/dist/katex.min.css">
       <link rel="stylesheet" href="../katex/dist/katex.min.css">
       <div></div>
