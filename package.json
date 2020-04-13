@@ -1,22 +1,44 @@
 {
   "name": "katex-elements",
-  "version": "0.1.0",
-  "description": "Web Components for easily using [KaTeX][katex] in HTML",
+  "version": "0.2.0",
+  "description": "Web components for easily using KaTeX in HTML",
   "main": "index.js",
+  "module": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "serve": "es-dev-server --node-resolve --watch",
+    "test": "karma start karma.conf.cjs"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/justinfagnani/katex-elements.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/justinfagnani/katex-elements/issues"
   },
   "homepage": "https://github.com/justinfagnani/katex-elements#readme",
   "dependencies": {
-    "katex": "^0.9.0"
+    "katex": "^0.11.1"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "^2.5.10",
+    "@open-wc/testing-karma": "^3.3.12",
+    "@types/chai": "^4.2.11",
+    "@types/katex": "^0.11.0",
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0",
+    "deepmerge": "^4.2.2",
+    "es-dev-server": "^1.46.1",
+    "karma": "^5.0.1",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-snapshot": "^0.2.1",
+    "karma-snapshot": "^0.6.0",
+    "lit-html": "^1.2.1",
+    "mocha": "^7.1.1",
+    "typescript": "^3.8.3"
   }
 }
