@@ -83,7 +83,7 @@
           style="height: 0.43056em; vertical-align: 0em;"
         >
         </span>
-        <span class="mathdefault mord">
+        <span class="mathnormal mord">
           c
         </span>
         <span
@@ -106,33 +106,33 @@
           style="height: 1.00855em; vertical-align: -0.19444em;"
         >
         </span>
-        <span class="mathdefault mord">
+        <span class="mathnormal mord">
           p
         </span>
-        <span class="mathdefault mord">
+        <span class="mathnormal mord">
           m
         </span>
-        <span class="mathdefault mord">
+        <span class="mathnormal mord">
           s
         </span>
         <span
-          class="mathdefault mord"
+          class="mathnormal mord"
           style="margin-right: 0.03588em;"
         >
           q
         </span>
         <span
-          class="mathdefault mord"
+          class="mathnormal mord"
           style="margin-right: 0.02778em;"
         >
           r
         </span>
-        <span class="mathdefault mord">
+        <span class="mathnormal mord">
           t
         </span>
         <span class="mord">
           <span class="mord">
-            <span class="mathdefault mord">
+            <span class="mathnormal mord">
               a
             </span>
             <span class="msupsub">
@@ -173,7 +173,7 @@
           >
           </span>
           <span class="mord">
-            <span class="mathdefault mord">
+            <span class="mathnormal mord">
               b
             </span>
             <span class="msupsub">
@@ -283,7 +283,7 @@
           style="height: 0.43056em; vertical-align: 0em;"
         >
         </span>
-        <span class="mathdefault mord">
+        <span class="mathnormal mord">
           c
         </span>
         <span
@@ -306,33 +306,33 @@
           style="height: 1.00855em; vertical-align: -0.19444em;"
         >
         </span>
-        <span class="mathdefault mord">
+        <span class="mathnormal mord">
           p
         </span>
-        <span class="mathdefault mord">
+        <span class="mathnormal mord">
           m
         </span>
-        <span class="mathdefault mord">
+        <span class="mathnormal mord">
           s
         </span>
         <span
-          class="mathdefault mord"
+          class="mathnormal mord"
           style="margin-right: 0.03588em;"
         >
           q
         </span>
         <span
-          class="mathdefault mord"
+          class="mathnormal mord"
           style="margin-right: 0.02778em;"
         >
           r
         </span>
-        <span class="mathdefault mord">
+        <span class="mathnormal mord">
           t
         </span>
         <span class="mord">
           <span class="mord">
-            <span class="mathdefault mord">
+            <span class="mathnormal mord">
               a
             </span>
             <span class="msupsub">
@@ -373,7 +373,7 @@
           >
           </span>
           <span class="mord">
-            <span class="mathdefault mord">
+            <span class="mathnormal mord">
               b
             </span>
             <span class="msupsub">
@@ -445,7 +445,7 @@
           style="height: 0.43056em; vertical-align: 0em;"
         >
         </span>
-        <span class="mathdefault mord">
+        <span class="mathnormal mord">
           x
         </span>
         <span
