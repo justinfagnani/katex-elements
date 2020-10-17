@@ -143,7 +143,7 @@ export class KatexExprElement extends HTMLElement {
   }
 
   private _render() {
-    const hostRule = (this._styleTag.sheet as CSSStyleSheet).cssRules[0] as CSSStyleRule;
+    const hostRule = this._styleTag.sheet!.cssRules[0] as CSSStyleRule;
     hostRule.style.display = this.displayMode ? 'block' : 'inline-block';
     const inputText = this._slot.assignedNodes({flatten: true}).map((n) => n.textContent).join('');
     katex.render(inputText, this._container, {displayMode: this.displayMode});
