@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "incremental": true,
-    "target": "es2017",
+    "target": "es2020",
     "module": "es2015",
-    "lib": ["ES2017", "DOM"],
+    "lib": ["es2020", "DOM"],
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
@@ -15,7 +15,6 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
-    // "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true
   },
