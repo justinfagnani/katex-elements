@@ -33,7 +33,7 @@
     "chai": "^4.2.0",
     "deepmerge": "^4.2.2",
     "es-dev-server": "^1.57.8",
-    "karma": "^5.2.3",
+    "karma": "^6.3.14",
     "karma-chai": "^0.1.0",
     "karma-mocha": "^2.0.1",
     "karma-mocha-snapshot": "^0.2.1",
